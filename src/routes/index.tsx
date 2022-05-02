@@ -7,7 +7,7 @@ export const Rotas: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Dashbord />} />
-      <Route path="/repo" element={<Repo />} />
+      <Route path="/repositories" element={<Repo />} />
     </Routes>
   );
 };
