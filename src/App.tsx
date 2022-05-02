@@ -1,9 +1,12 @@
 import React from 'react';
+import { Rotas } from './routes';
+import { GlobalStyled } from './styles/global';
 
 const App: React.FC = () => {
   return (
     <>
-      <h1>Olá Dev!</h1>
+      <Rotas />
+      <GlobalStyled />
     </>
   );
 };
